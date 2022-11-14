@@ -1,0 +1,41 @@
+#hero {
+  padding: 50px 0;
+  background: linear-gradient(0deg, #98c3e8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  .hero {
+    .hero_area {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      .text_area {
+        padding-top: 50px;
+        margin-right: -50px;
+        h2 {
+          font-size: 48px;
+          line-height: 74px;
+          letter-spacing: 0.04em;
+          color: #1f3f68;
+        }
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 0.05em;
+          color: #1f3f68;
+          opacity: 0.6;
+          padding-top: 32px;
+        }
+        a{
+            
+            button {
+                background: #5a98d0;
+                box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+                border-radius: 10px;
+                border: none;
+                padding: 15px 48px;
+                margin-top: 71px;
+                color: #fff;
+              }
+        }
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+#clients {
+  background: #5a98d0;
+  border-radius: 200px 0px 0px 0px;
+  padding: 100px 0;
+  .client_heading_area {
+    display: grid;
+    grid-template-columns: auto auto;
+    h3 {
+      font-family: "Gilroy";
+      font-size: 36px;
+      line-height: 46px;
+      letter-spacing: 0.05em;
+      color: #ffffff;
+    }
+    p {
+      font-family: "Gilroy";
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #ffffff;
+      opacity: 0.6;
+    }
+  }
+  .client_content_area {
+    padding-top: 153px;
+    .client_content {
+      .client_one{
+        border-bottom: 1px solid  #FFFFFF;
+      }
+      .client_two{
+        border: 1px solid  #FFFFFF;
+        border-top: none;
+      }
+      .client_three{
+        border-bottom: 1px solid  #FFFFFF;
+        border-right: 1px solid  #FFFFFF;
+      }
+      .client_four{
+        border-bottom: 1px solid  #FFFFFF;
+      }
+      .client_five{
+        border-right: 1px solid #FFF
+      }
+      .client_six{
+        border-right: 1px solid #FFF;
+      }
+      .client_seven{
+        border-right: 1px solid #FFF;
+      }
+      .more_client{
+        width: 276px;
+      }
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      a {
+        transition: 1s;
+        h5 {
+          font-family: "Gilroy";
+          font-size: 20px;
+          line-height: 46px;
+          letter-spacing: 0.02em;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 41px 62px;
+        }
+      }
+      a:hover {
+        background: #1f3f68;
+        opacity: 0.2;
+        cursor: pointer;
+      }
+    
+    }
+ 
+    
+  }
+}

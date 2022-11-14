@@ -1,0 +1,37 @@
+#team {
+  padding: 100px 0;
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+  .team {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .heading {
+      h2 {
+        font-size: 36px;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        opacity: 0.6;
+        padding-top: 32px;
+      }
+    }
+    button {
+      padding: 15px 74px;
+      border: none;
+      background: #5a98d0;
+      border-radius: 10px;
+      color: #ffffff;
+      transition: 1s;
+    }
+    button:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+}

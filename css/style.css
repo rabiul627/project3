@@ -1,0 +1,421 @@
+header {
+  background: #5a98d0;
+}
+header .header {
+  padding: 40px 0;
+}
+header .header .header_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .header .header_content a {
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding: 0 8px;
+}
+header .header .header_content a h3 {
+  color: white;
+}
+header .header .header_content a:hover {
+  background-color: red;
+  color: white;
+}
+
+#hero {
+  padding: 50px 0;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #98c3e8), color-stop(31.12%, rgba(152, 195, 232, 0)));
+  background: linear-gradient(0deg, #98c3e8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+#hero .hero .hero_area {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+#hero .hero .hero_area .text_area {
+  padding-top: 50px;
+  margin-right: -50px;
+}
+#hero .hero .hero_area .text_area h2 {
+  font-size: 48px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+#hero .hero .hero_area .text_area p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+  padding-top: 32px;
+}
+#hero .hero .hero_area .text_area a button {
+  background: #5a98d0;
+  -webkit-box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+          box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  border: none;
+  padding: 15px 48px;
+  margin-top: 71px;
+  color: #fff;
+}
+
+#digital_area {
+  padding: 100px 0;
+  background: #e5e5e5;
+}
+#digital_area .heading h1 {
+  font-family: "Gilroy";
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+  font-weight: 700;
+}
+#digital_area .card {
+  width: 380px;
+  height: 525px;
+  background: #ffffff;
+  -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+          box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+#digital_area .card .card_headng h3 {
+  width: 275px;
+  font-weight: 900;
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  margin: 50px 0 16px 48px;
+}
+#digital_area .card .card_text p {
+  width: 284px;
+  margin: 0px 0px 32px 48px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+#digital_area .card .card_learn_more_area {
+  padding: 0 0 48px 48px;
+}
+#digital_area .card .card_learn_more_area a {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5a98d0;
+}
+#digital_area .card_one_area .imgs_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#digital_area .card_one_area .imgs_area .img {
+  margin-top: -20px;
+}
+#digital_area .card_one_area .imgs_area .img .icn_one {
+  margin-right: 60px;
+}
+#digital_area .card_one_area .card_learn_more_area {
+  padding: 0 0 48px 48px;
+}
+#digital_area .card_one_area .card_learn_more_area a {
+  font-family: "Gilroy";
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5a98d0;
+}
+#digital_area .card_two_area {
+  margin-top: -320px;
+}
+#digital_area .card_two_area .icn_area {
+  text-align: center;
+}
+#digital_area .card_two_area .icn_area img {
+  position: relative;
+}
+#digital_area .card_two_area .icn_area .book_icn {
+  position: absolute;
+  margin: 19px 2px 10px -73px;
+}
+#digital_area .card_three_area .icn_area {
+  text-align: center;
+}
+
+#our_project {
+  padding: 100px 0;
+  background: linear-gradient(180.99deg, rgba(255, 255, 255, 0) 6.19%, rgba(0, 0, 0, 0.15) 102.42%);
+}
+#our_project .our_project .project_heading_area {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+#our_project .our_project .project_heading_area h2 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+}
+#our_project .our_project .project_heading_area p {
+  width: 540px;
+  height: 80px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+#our_project .our_project .project_imgs_area .project_img {
+  padding-top: 96px;
+}
+#our_project .our_project .project_imgs_area .project_img .second_img {
+  padding-right: 96px;
+}
+
+#clients {
+  background: #5a98d0;
+  border-radius: 200px 0px 0px 0px;
+  padding: 100px 0;
+}
+#clients .client_heading_area {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+#clients .client_heading_area h3 {
+  font-family: "Gilroy";
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+#clients .client_heading_area p {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+}
+#clients .client_content_area {
+  padding-top: 153px;
+}
+#clients .client_content_area .client_content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+}
+#clients .client_content_area .client_content .client_one {
+  border-bottom: 1px solid #FFFFFF;
+}
+#clients .client_content_area .client_content .client_two {
+  border: 1px solid #FFFFFF;
+  border-top: none;
+}
+#clients .client_content_area .client_content .client_three {
+  border-bottom: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+}
+#clients .client_content_area .client_content .client_four {
+  border-bottom: 1px solid #FFFFFF;
+}
+#clients .client_content_area .client_content .client_five {
+  border-right: 1px solid #FFF;
+}
+#clients .client_content_area .client_content .client_six {
+  border-right: 1px solid #FFF;
+}
+#clients .client_content_area .client_content .client_seven {
+  border-right: 1px solid #FFF;
+}
+#clients .client_content_area .client_content .more_client {
+  width: 276px;
+}
+#clients .client_content_area .client_content a {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+#clients .client_content_area .client_content a h5 {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 41px 62px;
+}
+#clients .client_content_area .client_content a:hover {
+  background: #1f3f68;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+#team {
+  padding: 100px 0;
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+}
+#team .team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#team .team .heading h2 {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+#team .team .heading p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+  padding-top: 32px;
+}
+#team .team button {
+  padding: 15px 74px;
+  border: none;
+  background: #5a98d0;
+  border-radius: 10px;
+  color: #ffffff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+#team .team button:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#footer {
+  background: #316099;
+  padding: 100px 0;
+  border-top: 1px solid #ffffff;
+}
+#footer .footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+#footer .footer .footer_content .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#footer .footer .footer_content .heading h2 {
+  padding-left: 35px;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+#footer .footer .footer_content .heading h4 {
+  font-family: "Gilroy";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+#footer .footer .footer_content .heading .heading_icn .icn_two {
+  position: absolute;
+  margin: -32px 0px 0px 15px;
+}
+#footer .footer .footer_content .lists_area {
+  margin-left: -35px;
+  padding-top: 33px;
+}
+#footer .footer .footer_content .lists_area .list ul li {
+  list-style-type: none;
+}
+#footer .footer .footer_content .lists_area .list ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+#footer .footer .footer_content .lists_area .list ul li a h3 {
+  padding: 0 16px 0 0;
+  margin-top: -2px;
+}
+#footer .footer .footer_content .lists_area .list ul li a h5 {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.4;
+  padding-top: 64px;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Signika", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}

@@ -1,0 +1,35 @@
+#our_project {
+    padding: 100px 0;
+    background: linear-gradient(180.99deg, rgba(255, 255, 255, 0) 6.19%, rgba(0, 0, 0, 0.15) 102.42%);
+  .our_project {
+    .project_heading_area {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      h2 {
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: #1f3f68;
+      }
+      p {
+        width: 540px;
+        height: 80px;
+        font-family: "Gilroy";
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #1f3f68;
+        opacity: 0.6;
+      }
+    }
+    .project_imgs_area {
+    .project_img{
+        padding-top: 96px;
+        .second_img{
+          padding-right: 96px;
+        }
+    }
+    }
+  }
+}

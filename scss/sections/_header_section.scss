@@ -1,0 +1,23 @@
+header {
+  background: #5a98d0;
+  .header {
+    padding: 40px 0;
+    .header_content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      a {
+        transition: 1s;
+        padding: 0 8px;
+
+        h3 {
+          color: white;
+        }
+      }
+      a:hover {
+        background-color: red;
+        color: white;
+      }
+    }
+  }
+}
